@@ -1,0 +1,9 @@
+ipykernel==7.2.0
+jax[cpu]==0.10.0
+matplotlib==3.10.8
+notebook==7.5.5
+numpy==2.4.4
+pennylane==0.44.1
+scikit-learn==1.8.0
+scipy==1.17.1
+tensorcircuit-ng==1.10.0

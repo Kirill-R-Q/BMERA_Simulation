@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bmera-simulator"
+version = "0.1.0"
+description = "JAX tensor-network simulator for branching MERA circuits"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["jax>=0.10,<0.11", "numpy>=2.4,<2.5"]
+
+[project.optional-dependencies]
+notebooks = ["notebook>=7.5,<8", "matplotlib>=3.10,<4", "nbconvert>=7.16,<8"]
+reference = ["pennylane>=0.44,<0.45", "tensorcircuit-ng>=1.10,<1.11"]
+experiments = ["scipy>=1.17,<1.18", "scikit-learn>=1.8,<1.9"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["bmera_core", "bmera_swap_layer", "pennylane_BMERA_layers", "quantum_snapshot_benchmark"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["bmera", "bmera.*"]

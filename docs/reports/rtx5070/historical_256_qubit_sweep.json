@@ -1,0 +1,92 @@
+{
+  "source": "Saved output of the 256-qubit GPU sweep cell in the original BMERA_simulator_exec notebook",
+  "device": "GeForce RTX 5070",
+  "device_platform": "cuda",
+  "driver_version": "580.126.09",
+  "driver_reported_cuda_version": "13.0",
+  "jax_version": null,
+  "block_type": 1,
+  "dtype": "float32",
+  "repeats": 5,
+  "warmup": 2,
+  "first_failed_batch": 128,
+  "rows": [
+    {
+      "n_qubits": 256,
+      "batch_size": 1,
+      "microbatch_size": null,
+      "effective_microbatch_size": 1,
+      "grad_compile_plus_first_ms": 1103192.7292519994,
+      "grad_steady_ms": 96.3569801999256,
+      "grad_steady_std_ms": 0.08708039831363677,
+      "grad_ms_per_sample": 96.3569801999256,
+      "grad_samples_per_second": 10.378075339484042
+    },
+    {
+      "n_qubits": 256,
+      "batch_size": 2,
+      "microbatch_size": null,
+      "effective_microbatch_size": 2,
+      "grad_compile_plus_first_ms": 1418179.2352719984,
+      "grad_steady_ms": 116.18463799968595,
+      "grad_steady_std_ms": 0.15852864679735884,
+      "grad_ms_per_sample": 58.09231899984297,
+      "grad_samples_per_second": 17.213979700185543
+    },
+    {
+      "n_qubits": 256,
+      "batch_size": 4,
+      "microbatch_size": null,
+      "effective_microbatch_size": 4,
+      "grad_compile_plus_first_ms": 1433504.4718809987,
+      "grad_steady_ms": 125.23551080084872,
+      "grad_steady_std_ms": 0.34101167977068736,
+      "grad_ms_per_sample": 31.30887770021218,
+      "grad_samples_per_second": 31.93982261437698
+    },
+    {
+      "n_qubits": 256,
+      "batch_size": 8,
+      "microbatch_size": null,
+      "effective_microbatch_size": 8,
+      "grad_compile_plus_first_ms": 1238028.4928170005,
+      "grad_steady_ms": 140.1280066005711,
+      "grad_steady_std_ms": 0.6971594831244831,
+      "grad_ms_per_sample": 17.516000825071387,
+      "grad_samples_per_second": 57.09065727883833
+    },
+    {
+      "n_qubits": 256,
+      "batch_size": 16,
+      "microbatch_size": null,
+      "effective_microbatch_size": 16,
+      "grad_compile_plus_first_ms": 1114320.1207330022,
+      "grad_steady_ms": 172.15555619986844,
+      "grad_steady_std_ms": 0.09489675511390902,
+      "grad_ms_per_sample": 10.759722262491778,
+      "grad_samples_per_second": 92.93920192401102
+    },
+    {
+      "n_qubits": 256,
+      "batch_size": 32,
+      "microbatch_size": null,
+      "effective_microbatch_size": 32,
+      "grad_compile_plus_first_ms": 1147376.6421479995,
+      "grad_steady_ms": 302.5240387985832,
+      "grad_steady_std_ms": 0.8435887461994537,
+      "grad_ms_per_sample": 9.453876212455725,
+      "grad_samples_per_second": 105.77671819760812
+    },
+    {
+      "n_qubits": 256,
+      "batch_size": 64,
+      "microbatch_size": null,
+      "effective_microbatch_size": 64,
+      "grad_compile_plus_first_ms": 1276910.3851889996,
+      "grad_steady_ms": 529.0924607994384,
+      "grad_steady_std_ms": 0.3815018981713461,
+      "grad_ms_per_sample": 8.267069699991225,
+      "grad_samples_per_second": 120.9618445579407
+    }
+  ]
+}

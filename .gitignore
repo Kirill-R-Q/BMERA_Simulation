@@ -1,0 +1,60 @@
+# Local Python environments, bytecode and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+/build/
+/dist/
+.coverage
+
+# Local notebook configuration, credentials and checkpoints
+.jupyter_*/
+.jupyter/
+.ipython/
+.mplconfig/
+.ipynb_checkpoints/
+jupyter_cookie_secret
+jpserver-*.json
+jpserver-*-open.html
+.env
+.env.*
+!.env.example
+
+# Generated experiment outputs
+/quantum_snapshot_runs/
+/synthetic_bmera_runs/
+/tfim_bmera_runs/
+/tensorcircuit_backend_benchmark_rows.json
+/notebooks/*_runs/
+/notebooks/tensorcircuit_backend_benchmark_rows.json
+/notebooks/*.png
+/notebooks/*.svg
+/timings.json
+/*.png
+/*.svg
+/*.pdf
+
+# TeX intermediates
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+/docs/reports/rtx5070/*.pdf
+
+# Local editor, assistant and review files
+.~lock.*#
+.DS_Store
+Thumbs.db
+/.agents/
+/.codex
+/.write_test.txt
+/docs/publication-plan.ru.md
